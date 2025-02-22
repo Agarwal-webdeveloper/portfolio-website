@@ -1,0 +1,40 @@
+#hero{
+  border-radius: 50%;
+}
+
+#nav{
+  background-image: linear-gradient(to top right, rgb(25, 25, 232) , white);
+}
+
+
+.dark{
+  background-color: black;
+  color: white;
+border: 2px solid white;
+}
+
+#effect{
+  animation: effe 3s ;
+  transition: 3s;
+}
+
+
+@keyframes effe{
+  0%{
+    transform: scale(0, 0);
+    opacity: 0;
+  }100%{
+    transform: scale(1, 1);
+    opacity: 0.5;
+  }
+}
+
+#nava{
+  background-color: white;
+  z-index: 99;
+
+}
+
+#card:hover #pro{
+  bottom: 20px;
+}
