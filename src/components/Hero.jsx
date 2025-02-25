@@ -17,7 +17,7 @@ const Hero = () => {
 <div className='flex flex-col gap-5 mt-2 px-5 py-4 w-[400px] overflow-hidden md:flex-row items-center justify-between'>
     <button className='bg-blue-950  text-white text-[20px] px-5 py-2 rounded-[25px]'>Contact me</button>
     
-    <button className='flex items-center gap-1 justify-center bg-blue-950 text-white text-[20px] px-5 py-2 rounded-[25px]'>My Resume <span><IoMdDownload/></span></button>
+     <a href="/my-resume.pdf" download><button className='flex items-center gap-1 justify-center bg-blue-950 text-white text-[20px] px-5 py-2 rounded-[25px]'>My Resume <span><IoMdDownload/></span></button></a>
 
    
 
